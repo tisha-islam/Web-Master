@@ -1,0 +1,725 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+header{
+    display: flex;
+    
+    background-color :#00ddb869;
+    text-align: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.photoo{
+    height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ border: 1px solid rgba(9, 62, 207, 0.514);
+}
+.main li{
+    list-style: none;
+    margin: 20px;
+}
+
+.main li a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.fa-envelope-o{
+    color:rgb(250, 241, 241);
+    font-size: 30px;
+    padding: 20px;
+}
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:skyblue;
+
+
+}
+.content_info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  
+}
+.social_into{
+   
+    display: flex;
+    gap: 10px;
+}
+.main-image{
+    height: 800px;
+    width: 100%;
+}
+
+
+
+.image{
+    background: url(./photo/website-background-sdki780prxb1nfs5.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.letter{
+    height: 800px;
+   
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.295);
+  
+}
+h1{
+  padding: 50px;
+    font-size: 130px;
+    text-shadow: 2px 4px 2px hsl(0, 60%, 98%);
+}
+.letter h3{
+    width: 700px;
+    margin: auto;
+}
+.btn{
+ 
+    background-color: blue;
+    border-radius: 30px;
+    margin: 0  auto;
+    font-size: 50px;
+    
+    margin-top: 150px;
+    
+}
+.icon_bar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+
+}
+.icon_bar .all_icon{
+    height: 175px;
+    width: 250px;
+    background-color: bisque;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    border: 1px solid rgba(0, 0, 0, 0.204);
+    box-shadow:0 10px 4px -4px rgba(0, 0, 0, 0.334);
+    gap: 20px;
+}
+.icon_bar .all_icon i{
+    font-size: 40px;
+}
+.icon_bar .all_icon h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: blue;
+}
+.all_icon:hover{
+    background: blue;
+    color: bisque;
+}
+.all_icon:hover h2{
+    color: #f5eaea;
+}
+.third_item{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.third_item h3{
+    font-size: 60px;
+    font-family: "Matemasie", sans-serif;
+  
+}
+.third_item p{
+    height: 300px;
+    width: 80%;
+    font-size: 20px;
+    
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: 500;
+}
+.bos_iteam{
+    height: 180px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+
+}
+.bos_iteam img{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+
+}
+.bos_iteam h4{
+    font-size: 25px;
+    padding: 10px;
+    color: #f0680e;
+}
+.box{
+    height: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    gap: 10px;
+    padding: 20px;
+    
+  
+  
+ 
+}
+.third_item .third_item_img{
+ 
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 40%;   
+  
+}
+/* latest work area */
+.titlearea {
+    padding: 20px 0;
+}
+.titlearea h3{
+    font-size: 20px;
+    color: #f0680e;
+}
+.titlearea h2{
+    font-size: 50px;
+}
+.titlearea h3,h2{
+    text-align: center;
+}
+.projects_img{
+    width: 400px;
+    height: 500px;
+   
+   
+    overflow: hidden;
+}
+.projects_img img{
+    width: 100%;
+}
+.projects_img img:hover{
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.projects{
+    border:10px solid #16161628;
+}
+.each_projrcts h3{
+    text-align: center;
+}
+
+@keyframes scroll {
+    from{
+        transform: translatey(0px);
+    }
+    to{
+        transform: translateY(-70%);
+    }
+}
+.Portfolio_area{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.fotter_main{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background: rgb(148, 148, 202);
+    position: relative;
+
+
+}
+.fotter{
+   
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.fotter_one{
+    padding: 50px;
+    text-align: center;
+}
+.fotter_one h5{
+    font-size: 22px;
+    /* font-family: "Matemasie", sans-serif; */
+  
+}
+.fotter_one p{
+    font-size: 20px;
+    gap: 10px;
+    text-align: center;
+    /* font-family: "Edu VIC WA NT Beginner", cursive; */
+}
+.iconnn{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    bottom: 10px;
+   
+}
+.iconnn i{
+    /* gap: 20px; */
+    font-size: 20px;
+   
+  
+}
+
+.your-class img{
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+.slick-prev::before,
+.slick-next::before {
+    color: red;
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 30px;
+}
+
+.slick-next {
+    right: 30px;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: rgb(61, 207, 3);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #dd0d0d;
+}
+.slider_section{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: url(./photo/website-background-sdki780prxb1nfs5.jpg);
+   
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+.slider_section h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+ text-align: center;
+ font-family: "Edu VIC WA NT Beginner", cursive;
+ padding: 40px;
+}
+.slider_section img{
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    
+}
+.overly{
+    height: 700px;
+    width: 100%;
+    background: #0c0c0c2a;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+.fa-bars{
+    font-size: 30px;
+    color: #f3bc26;
+    margin-left: 10px;
+    display: none;
+}
+.mobile_item{
+    display: none;
+    background-color: aliceblue;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+.fa-bars:hover .mobile_item{
+    display: block;
+}
+
+
+
+ 
+ 
+
+.about_dropdown{
+    /* display: flex; */
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+    background: white;
+     padding: 20px;
+     gap: 50px;
+    display: none;
+    
+   
+    
+ 
+   
+
+}
+.about_main:hover .about_dropdown{
+    display: flex;
+  
+  
+}
+.about_main .about_dropdown .about_menu  ul li{
+    list-style: none;
+   
+}
+.about_main .about_dropdown .about_menu ul li a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+   
+   
+}
+.about_menu h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: left;
+    /* border-bottom: 4px solid rgb(5, 5, 5); */
+
+}
+.about_main .about_dropdown .about_menu ul li:hover a{
+  border-bottom: 2px solid red;
+}
+.h_border{
+    background: #000;
+      width: 200px;
+      height: 2px;
+      margin-left: 50px;
+      margin-top: -20px;
+      
+}
+/* mobile menu */
+.mobile_menu{
+    width: 300px;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+.mobile_menu li{
+    padding: 20px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: #000;
+}
+.fa-bars:hover .mobile_menu{
+    display: block;
+}
+
+@media only screen and (max-width:768px) {
+ 
+   body{
+    width: 768px;
+   }
+    .main {
+        display: none;
+    }
+    .fa-bars{
+        display: inline;
+    }
+    h1 {
+        padding: 20px;
+        font-size: 35px;
+        text-shadow: 2px 4px 2px hsl(0, 60%, 98%);
+    }
+    .letter {
+        height: 768px;
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.295);
+    }
+    .btn {
+        background-color: blue;
+        border-radius: 15px;
+        margin: 0  auto;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    .icon_bar .all_icon {
+        height: 100px;
+        width: 180px;
+        background-color: bisque;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        border: 1px solid rgba(0, 0, 0, 0.204);
+        box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.334);
+        gap: 10px;
+    }
+    .icon_bar .all_icon h2 {
+        font-size: 15px;
+        font-weight: 600;
+        color: blue;
+    }
+    .third_item h3 {
+        font-size: 30px;
+        font-family: "Matemasie", sans-serif;
+    }
+    .third_item {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .third_item .fuvhufh {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 40%;
+    }
+    .box {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        gap: 10px;
+        padding: 20px;
+    }
+    .your-class img {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fotter_main {
+        height: auto;
+        width: 100%;
+        background: rgb(148, 148, 202);
+        position: relative;
+    }
+    .fotter_one h5 {
+        font-size: 15px;
+        font-family: "Matemasie", sans-serif;
+    }
+    .fotter_one p {
+        font-size: 15px;
+        gap: 10px;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+    }
+    .slider_section h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        padding: 40px;
+    }
+    .fotter {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:600px) {
+ 
+   body{
+    width: 600px;
+   }
+    .main {
+        display: none;
+    }
+    .fa-bars{
+        display: inline;
+    }
+    h1 {
+        padding: 20px;
+        font-size: 35px;
+        text-shadow: 2px 4px 2px hsl(0, 60%, 98%);
+    }
+    .letter {
+        height: 600px;
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.295);
+    }
+    .btn {
+        background-color: blue;
+        border-radius: 15px;
+        margin: 0  auto;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    .icon_bar .all_icon {
+        height: 100px;
+        width: 180px;
+        background-color: bisque;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        border: 1px solid rgba(0, 0, 0, 0.204);
+        box-shadow: 0 10px 4px -4px rgba(0, 0, 0, 0.334);
+        gap: 10px;
+    }
+    .icon_bar .all_icon h2 {
+        font-size: 15px;
+        font-weight: 600;
+        color: blue;
+    }
+    .third_item h3 {
+        font-size: 30px;
+        font-family: "Matemasie", sans-serif;
+    }
+    .third_item {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .third_item .fuvhufh {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 40%;
+    }
+    .box {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        gap: 10px;
+        padding: 20px;
+    }
+    .your-class img {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fotter_main {
+        height: auto;
+        width: 100%;
+        background: rgb(148, 148, 202);
+        position: relative;
+    }
+    .fotter_one h5 {
+        font-size: 15px;
+        font-family: "Matemasie", sans-serif;
+    }
+    .fotter_one p {
+        font-size: 15px;
+        gap: 10px;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+    }
+    .slider_section h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        padding: 40px;
+    }
+    .fotter {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .box {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        gap: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+
+
+
+
+  
