@@ -8,16 +8,18 @@
 header{
     display: flex;
     
-    background-color :#00ddb869;
+    background-color :#c1cbca69;
     text-align: center;
     justify-content: space-between;
     position: sticky;
 }
 .photoo{
-    height: 100px;
- width: 100px;
- border-radius: 50%;
- border: 1px solid rgba(9, 62, 207, 0.514);
+    height: 50px;
+ width: 150px;
+ margin-top: 5px;
+
+ 
+ 
 }
 .main li{
     list-style: none;
@@ -28,10 +30,11 @@ header{
     text-decoration: none;
     font-style: italic;
     font-size: 30px;
+    color: #000;
 }
 
 .fa-envelope-o{
-    color:rgb(250, 241, 241);
+    color:rgb(246, 144, 10);
     font-size: 30px;
     padding: 20px;
 }
@@ -39,7 +42,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color:skyblue;
+    background-color:rgba(240, 107, 6, 0.862);
 
 
 }
@@ -67,6 +70,11 @@ header{
     height: 800px;
     width: 100%;
 }
+.overli{
+    height: 800px;
+    
+    background-color: #b60d0ded;
+}
 .letter{
     height: 800px;
    
@@ -86,12 +94,15 @@ h1{
 }
 .btn{
  
-    background-color: blue;
-    border-radius: 30px;
+    background-color: rgba(255, 111, 0, 0.86);
+    border-radius: 25px;
+    padding: 10px;
     margin: 0  auto;
-    font-size: 50px;
+    font-size: 35px;
+    margin-top: 50px;
+   
     
-    margin-top: 150px;
+ 
     
 }
 .icon_bar{
@@ -104,7 +115,7 @@ h1{
 .icon_bar .all_icon{
     height: 175px;
     width: 250px;
-    background-color: bisque;
+    background-color: rgba(241, 126, 39, 0.975);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -121,17 +132,17 @@ h1{
 .icon_bar .all_icon h2{
     font-size: 26px;
     font-weight: 600;
-    color: blue;
+    color: rgb(8, 8, 8);
 }
 .all_icon:hover{
-    background: blue;
+    background: rgb(11, 11, 11);
     color: bisque;
 }
 .all_icon:hover h2{
     color: #f5eaea;
 }
 .third_item{
-    height: 500px;
+    height: 450px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -146,11 +157,10 @@ h1{
     font-family: "Matemasie", sans-serif;
   
 }
-.third_item p{
-    height: 300px;
+.third_item p {
+    height: 228px;
     width: 80%;
     font-size: 20px;
-    
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-weight: 500;
 }
@@ -158,6 +168,7 @@ h1{
     height: 180px;
     width: 400px;
     display: flex;
+    margin: 5px;
     justify-content: center;
     border: 1px solid red;
 
@@ -180,8 +191,9 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    gap: 10px;
-    padding: 20px;
+    /* gap: 10px;
+    padding: 20px; */
+    margin-top: -50PX;
     
   
   
@@ -246,53 +258,7 @@ h1{
     gap: 20px;
 
 }
-.fotter_main{
-    margin-top: 20px;
-    height: 500px;
-    width: 100%;
-    background: rgb(148, 148, 202);
-    position: relative;
 
-
-}
-.fotter{
-   
-    display: flex;
-    justify-content: space-around;
-  
-
-}
-.fotter_one{
-    padding: 50px;
-    text-align: center;
-}
-.fotter_one h5{
-    font-size: 22px;
-    /* font-family: "Matemasie", sans-serif; */
-  
-}
-.fotter_one p{
-    font-size: 20px;
-    gap: 10px;
-    text-align: center;
-    /* font-family: "Edu VIC WA NT Beginner", cursive; */
-}
-.iconnn{
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 50%;
-    bottom: 10px;
-   
-}
-.iconnn i{
-    /* gap: 20px; */
-    font-size: 20px;
-   
-  
-}
 
 .your-class img{
     height: 700px;
@@ -301,7 +267,7 @@ h1{
 }
 .slick-prev::before,
 .slick-next::before {
-    color: red;
+    color: rgb(249, 242, 242);
     font-size: 2.5rem;
 }
 
@@ -348,7 +314,9 @@ h1{
     height: 700px;
     width: 100%;
     margin-bottom: 20px;
-    background: url(./photo/website-background-sdki780prxb1nfs5.jpg);
+    background: url(./photo/images\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
    
     background-position: center;
     background-attachment: fixed;
@@ -395,11 +363,54 @@ h1{
 .fa-bars:hover .mobile_item{
     display: block;
 }
+.fotter_main{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(255, 111, 0, 0.463);
+    position: relative;
 
 
+}
+.fotter{
+   
+    display: flex;
+    justify-content: space-around;
+  
 
- 
- 
+}
+.fotter_one{
+    padding: 50px;
+    text-align: center;
+}
+.fotter_one h5{
+    font-size: 22px;
+    /* font-family: "Matemasie", sans-serif; */
+  
+}
+.fotter_one p{
+    font-size: 20px;
+    gap: 10px;
+    text-align: center;
+    /* font-family: "Edu VIC WA NT Beginner", cursive; */
+}
+.iconnn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+   
+}
+.iconnn i{
+    /* gap: 20px; */
+    font-size: 20px;
+   
+  
+}
+
+
 
 .about_dropdown{
     /* display: flex; */
@@ -407,7 +418,7 @@ h1{
     position: absolute;
     left: 0;
     width: 1500px;
-    height: 700px;
+    height: 520px;
     margin: 0 auto;
     background: white;
      padding: 20px;
@@ -440,9 +451,7 @@ h1{
 .about_menu h2{
     margin-bottom: 20px;
     font-size: 30px;
-    margin-left: 50px;
-    text-align: left;
-    /* border-bottom: 4px solid rgb(5, 5, 5); */
+ 
 
 }
 .about_main .about_dropdown .about_menu ul li:hover a{
@@ -456,6 +465,17 @@ h1{
       margin-top: -20px;
       
 }
+.border{
+    background: #000;
+    width: 200px;
+    height: 2px;
+    margin-left: 100px;
+    margin-top: -20px;
+  
+
+    
+}
+
 /* mobile menu */
 .mobile_menu{
     width: 300px;
@@ -555,11 +575,18 @@ h1{
         gap: 10px;
         padding: 20px;
     }
+    .Portfolio_area {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
     .your-class img {
         height: auto;
         width: 80%;
         margin: 0 auto;
     }
+
     .fotter_main {
         height: auto;
         width: 100%;
@@ -668,10 +695,24 @@ h1{
         gap: 10px;
         padding: 20px;
     }
+    .Portfolio_area {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .projects {
+        border: 10px solid #16161628;
+        margin: auto;
+    }
     .your-class img {
         height: auto;
         width: 80%;
         margin: 0 auto;
+    }
+    .projects {
+        border: 10px solid #16161628;
+        margin: auto;
     }
     .fotter_main {
         height: auto;
