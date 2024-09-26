@@ -64,7 +64,7 @@ header{
 
 
 
-.image{
+.image_bg{
     background: url(./photo/website-background-sdki780prxb1nfs5.jpg);
     background-size: cover;
     height: 800px;
@@ -73,7 +73,7 @@ header{
 .overli{
     height: 800px;
     
-    background-color: #0f0f0fc1;
+    background-color: #0f0f0f5f;
 }
 .letter{
     height: 800px;
@@ -363,11 +363,65 @@ h1{
 .fa-bars:hover .mobile_item{
     display: block;
 }
+
+/* second slider */
+.second_section{
+    background-image: url(./photo/texture-2068283_1280.jpg);
+    background-size: cover;
+    height: 500px;
+    margin: 0 auto;
+   
+}
+.join_icon{
+    color: rgb(26, 126, 213);
+    font-size: 50px;
+    padding: 20px;
+    margin-left: 50px;
+    gap: 10px;
+}
+.join_icon .fa-facebook-square{
+    gap: 10px;
+    color: rgb(26, 126, 213);
+}
+.join_icon .fa-twitter-square{
+    color: rgb(32, 179, 179);
+
+}
+.join_icon .fa-youtube-square{
+    color: #dd0d0d;
+}
+.second_section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.join_us h1{
+    font-size: 80px;
+}
+.our-class img{
+    height: 300px;
+    width: 300px;
+  
+}
+
+
+.second_slider{
+    height: 350px;
+    width: 350px;
+     margin-top:50px ;
+     padding: 20px;
+    
+ 
+
+    
+}
+
 .fotter_main{
     margin-top: 20px;
     height: 500px;
     width: 100%;
-    background-color: rgba(255, 111, 0, 0.463);
+    background-color: rgba(240, 84, 6, 0.741);
     position: relative;
 
 
